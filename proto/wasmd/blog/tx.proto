@@ -1,0 +1,13 @@
+syntax = "proto3";
+package cosmwasm.wasmd.blog;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/CosmWasm/wasmd/x/blog/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
